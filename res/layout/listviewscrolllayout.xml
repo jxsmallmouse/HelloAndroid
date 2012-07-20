@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.makingware.helloandroid.ScrollLayout
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/ListViewScrollLayoutTest"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	<LinearLayout 
+		android:background="#696969"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+		<ListView
+			android:id="@+id/listview01"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:scrollingCache="false"
+			android:fadingEdge="none"
+		/>
+	</LinearLayout>
+	<LinearLayout 
+		android:background="#778899"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+		<ListView
+			android:id="@+id/listview02"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:scrollingCache="false"
+			android:fadingEdge="none"
+		/>
+	</LinearLayout>
+</com.makingware.helloandroid.ScrollLayout> 

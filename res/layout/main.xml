@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+   	android:fadingEdge="none">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<Button
+	android:id="@+id/button_readcontacts"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+<Button
+	android:id="@+id/btn_musicplayer"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>	
+<Button
+	android:id="@+id/btn_FlingGallery"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="uc和墨迹天气的左右拖动效果"/>
+<Button
+	android:id="@+id/btn_scrolllayout"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="仿Launcher的WorkSapce左右滑动切换屏幕"/>
+<Button
+	android:id="@+id/btn_MyScrollLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="页面滑动切换（类Launcher滑动屏幕实现）"/>	
+<Button
+	android:id="@+id/btn_viewflipper"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="手势识别ViewFlipper触摸动画"/>
+<Button
+	android:id="@+id/btn_viewflipper2"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="手势识别ViewFlipper触摸动画2"/>
+<Button
+	android:id="@+id/btn_viewflipper3"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="利用ViewFlipper实现屏幕切换动画效果"/>
+<Button
+	android:id="@+id/btn_pageflipper"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="浮动按钮上下片翻页效果"/>
+<Button
+	android:id="@+id/btn_listviewscroll"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="带listview的屏幕切换"/>
+<Button
+	android:id="@+id/btn_ExpandableListView"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="二级listview01"/>
+<Button
+	android:id="@+id/btn_ExpandableListView02"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="二级listview02"/>
+<Button
+	android:id="@+id/btn_flipactivty"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Activity界面切换添加动画特效"/>
+<Button
+	android:id="@+id/btn_ImageEditText"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="在EditView中插入图片"/>
+<Button
+	android:id="@+id/btn_TextHtml"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="TextView超链接点击"/>
+<Button
+	android:id="@+id/btn_NetworkInfo"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="手机网络连接状态"/>
+<Button
+	android:id="@+id/btn_getip"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="获取手机IP地址"/>
+<Button
+	android:id="@+id/btn_LocationManagerTest"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="获取当前经纬度"/>
+<Button
+	android:id="@+id/btn_LocationNetwork"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="精度不高的网络定位"/>
+<Button
+	android:id="@+id/btn_LocationGPS"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="精度高的GPS定位"/>
+<Button
+	android:id="@+id/btn_Contextmenu"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="上下文菜单Contextmenu"/>
+<Button
+	android:id="@+id/btn_ToastNotification"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="自定义Toast、通知栏信息"/>
+<Button
+	android:id="@+id/btn_TestBoradcast"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="测试广播Boradcast"/>
+<Button
+	android:id="@+id/btn_quickaction"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="快捷方式栏"/>
+</LinearLayout>
+</ScrollView>

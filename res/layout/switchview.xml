@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<RelativeLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">    
+    <com.makingware.helloandroid.MyScrollLayout    
+	  xmlns:android="http://schemas.android.com/apk/res/android"    
+	  android:id="@+id/MyScrollLayout"    
+	  android:layout_width="fill_parent"    
+	  android:layout_height="fill_parent">     
+ 	  <FrameLayout    
+	  	android:background="#ff0000"    
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent">
+	  </FrameLayout>        
+	  <FrameLayout    
+	  	android:background="#00ff00"    
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent">
+	  </FrameLayout>    	      
+	  <FrameLayout     
+	  	android:background="#0000ff"     
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent">      
+	  </FrameLayout>    	  
+	  <FrameLayout    
+	  	android:background="#0ff00f"    
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent">    
+	  </FrameLayout>    	  
+	  <FrameLayout    
+	  	android:background="#f00ff0"    
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent">    
+	  </FrameLayout>          
+	</com.makingware.helloandroid.MyScrollLayout> 
+    <LinearLayout 
+    	android:orientation="horizontal" 
+    	android:id="@+id/llayout" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginBottom="24.0dip" 
+    	android:layout_alignParentBottom="true" 
+    	android:layout_centerHorizontal="true">    	
+        <ImageView android:clickable="true"  
+        	android:padding="15.0dip" 
+        	android:layout_gravity="center_vertical" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/guide_round" />
+        <ImageView android:clickable="true"  
+        	android:padding="15.0dip"  
+        	android:layout_gravity="center_vertical" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/guide_round" />
+        <ImageView android:clickable="true"  
+        	android:padding="15.0dip"  
+        	android:layout_gravity="center_vertical" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/guide_round" />
+        <ImageView android:clickable="true"  
+        	android:padding="15.0dip"  
+        	android:layout_gravity="center_vertical" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/guide_round" />
+        <ImageView android:clickable="true"  
+        	android:padding="15.0dip"  
+        	android:layout_gravity="center_vertical" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/guide_round" />
+    </LinearLayout>   
+</RelativeLayout>

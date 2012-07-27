@@ -51,8 +51,11 @@ public class TestBoradcast extends Activity {
         
         mBtnOther.setOnClickListener(new OnClickListener() { 
             public void onClick(View v) { 
-                Intent mIntent = new Intent(TestBoradcast.this,TestBoradcast2.class);
-                startActivity(mIntent);
+                Intent mIntent = new Intent(TestBoradcast2.ACTION_NAME);
+                mIntent.putExtra("count", 123); 
+
+                //发送广播 
+                sendBroadcast(mIntent); 
             } 
         }); 
     } 
@@ -63,7 +66,7 @@ public class TestBoradcast extends Activity {
             String action = intent.getAction(); 
             if(action.equals(ACTION_NAME)){ 
             	int count = intent.getIntExtra("count", 0);
-                Toast.makeText(TestBoradcast.this, "处理广播接收到的count："+count, 3000).show(); 
+                Toast.makeText(TestBoradcast.this, "本Activity注册广播接收到的count："+count, 3000).show(); 
                 mTxtCount.setText(count+"");
             } 
         } 
